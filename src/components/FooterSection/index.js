@@ -78,7 +78,7 @@ function FooterSection({isInvitation}) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">Made with ❤ by  <a href="https://github.com/riyantorivalry">@riyantorivalry </a> </small>
+                <small className="block">Made with ❤ by  <a href="https://github.com/riyantorivalry/ariima">@riyantorivalry </a> </small>
               </p>
             </div>
           </div>
