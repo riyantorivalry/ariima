@@ -9,6 +9,7 @@ import { object } from 'prop-types';
 import WeddingSection from "../components/WeddingSection";
 import HealthProtocolSection from "../components/HealthProtocolSection";
 import LocationSection from "../components/LocationSection";
+import WishesSection from "../components/WishesSection";
 
 export default function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -33,6 +34,7 @@ export default function Home({ location }) {
         isAnonymousGuest={isAnonymousGuest}/>
         {isInvitation && <HealthProtocolSection />}
         {isInvitation && <LocationSection />}
+        <WishesSection guestName={guestName}/>
         <FooterSection isInvitation = {isInvitation}/>
       </Fragment>
     )
