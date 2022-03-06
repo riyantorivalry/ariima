@@ -58,6 +58,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 
 ## Credit
-1. Thanks to https://github.com/idindrakusuma/thekusuma for the insight. Some of the codes use its repo.
-2. Assets https://pngtree.com/freepng/muslim-wedding-couple-romantic-or-bride-and-groom_7383167.html, https://www.flaticon.com/premium-icon/covid-19_2781395, 
-3. Original Landing Page Template (https://freehtml5.co/)
+1. Song by Rey Mbayang (original Youtube video https://www.youtube.com/watch?v=qtvIQ9D99LI)
+2. Thanks to https://github.com/idindrakusuma/thekusuma for the insight. Some of the codes use its repo.
+3. Assets https://pngtree.com/freepng/muslim-wedding-couple-romantic-or-bride-and-groom_7383167.html, https://www.flaticon.com/premium-icon/covid-19_2781395, 
+4. Original Landing Page Template (https://freehtml5.co/)
