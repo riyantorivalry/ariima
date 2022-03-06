@@ -162,7 +162,7 @@ export const styWrapper = css`
 
   h1 {
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 50px;
     line-height: 1.5;
     font-family: 'Cookie', cursive;
     color: #fff;
@@ -226,53 +226,6 @@ export const styWrapper = css`
   }
 `;
 
-export const styWrapperCount = css`
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: rgba(241, 78, 149, 0.8);
-  margin: 8px;
-  border-radius: 50%;
-  position: relative;
-  animation: pulse 1s ease infinite;
-  color: #fff;
-
-  h3 {
-    font-size: 30px;
-    color: #fff;
-    margin: 20px 0 0 0;
-  }
-
-  @media screen and (max-width: 500px) {
-    width: 75px;
-    height: 75px;
-    margin: 4px;
-    font-size: 12px;
-
-    h3 {
-      font-size: 24px;
-    }
-  }
-
-  @media screen and (max-width: 380px) {
-    width: 55px;
-    height: 55px;
-
-    h3 {
-      margin-top: 12px;
-      margin-bottom: -4px;
-      font-size: 16px;
-    }
-
-    span {
-      font-size: 10px;
-    }
-  }
-`;
-
-export const styMargin = (px) => css`
-  margin: ${px};
-`;
 
 export const styButtonWrapper = css`
   display: flex;

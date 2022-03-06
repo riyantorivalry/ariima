@@ -47,6 +47,7 @@ const renderGuestSection=()=>{
     return (
         <Fragment>
             <h3 className='to-dearest'>To our Dearest</h3>
+            <h4 className='to-dearest'>Bapak/Ibu/Saudara/i</h4>
             <h2 className='to-dearest-name'>{guestName}</h2>
         </Fragment>
     );
@@ -70,7 +71,7 @@ const renderGuestSection=()=>{
               <h1 className="title">Ima</h1>
               <h2 className="sub-title">&amp;</h2>
               <h1 className="title">Riyanto</h1>
-              <br/><br/><br/><br/>
+              <br/>
               {renderGuestSection()}
             </div>
           </div>

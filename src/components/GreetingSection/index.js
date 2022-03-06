@@ -61,12 +61,11 @@ export default function GreetingSection({isInvitation}) {
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <h2 className="main-font">Seputar Covid-19</h2>
                 <p className="info">
-                  Berkaitan dengan kondisi pandemik saat ini, keberlangsungan acara kami mengacu pada pedoman
-                  Kementerian Kesehatan, yaitu memberlakukan pembatasan jarak dan pembatasan jumlah tamu undangan.
+                  Berkaitan dengan kondisi pandemi saat ini, dengan segala kerendahan hati, kami memberlakukan pembatasan jarak dan pembatasan jumlah tamu undangan.
                 </p>
                 <p className="info">
-                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
-                  dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
+                  Maka dari itu, kami mohon maaf belum bisa mengundang Bapak/Ibu/Saudara/i untuk hadir 
+                  pada hari bahagia kami. Sekiranya do'a dari Bapak/Ibu/Saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
                   selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
                 </p>
               </div>

@@ -11,10 +11,9 @@ function WeddingSection({isInvitation, isAnonymousGuest}) {
                 <div className='col-md-8 col-md-offset-4'>
                     <WeddingInfoBox 
                     title = "Akad Nikah" 
-                    time= "09.00 WIB" 
+                    time= "10.00 WIB" 
                     date="Selasa, 22 Maret 2022"/>
                 </div>
-                
             </Fragment>
         )
     }
@@ -26,7 +25,7 @@ function WeddingSection({isInvitation, isAnonymousGuest}) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Walimatul 'Ursy</h2>
+              <h2 className="main-font main-font__wedding">{`${isInvitation ? 'Akad Nikah dan Walimatul Urs' : 'Akad Nikah'}`}</h2>
               <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
           </div>
@@ -36,13 +35,13 @@ function WeddingSection({isInvitation, isAnonymousGuest}) {
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
                   title="Akad Nikah"
-                  time="09.00 - 10.00 WIB "
+                  time="10.00 - 10.30 WIB "
                   date="Selasa, 22 Maret 2022"
                   description="Kediaman mempelai wanita"
                 />
                 <WeddingInfoBox
                   title="Walimatul 'Ursy"
-                  time="10.00 - 12.00 WIB"
+                  time="10.30 - 12.00 WIB"
                   date="Selasa, 22 Maret 2022"
                   description="Kediaman mempelai wanita"
                 />
