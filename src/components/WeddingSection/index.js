@@ -12,7 +12,9 @@ function WeddingSection({isInvitation, isAnonymousGuest}) {
                     <WeddingInfoBox 
                     title = "Akad Nikah" 
                     time= "10.00 WIB" 
-                    date="Selasa, 22 Maret 2022"/>
+                    date="Selasa, 22 Maret 2022"
+                    description="Kadisono RT 16, Trombol, Mondokan <br />
+                    Kabupaten Sragen, Jawa Tengah"/>
                 </div>
             </Fragment>
         )
@@ -46,12 +48,13 @@ function WeddingSection({isInvitation, isAnonymousGuest}) {
                   description="Kediaman mempelai wanita"
                 />
               </div>
-            )}
-            <br/><br/><br/>
-            <div className="col-md-12 col-md-offset-3 text-center fh5co-heading">
+            )}            
+          </div>
+          <div className="row">
+          <br/><br/><br/>
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <CountContainer/>
             </div>
-            
           </div>
         </div>
       </div>

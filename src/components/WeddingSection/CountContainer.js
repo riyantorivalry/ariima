@@ -20,7 +20,7 @@ export default function CountContainer() {
     };
 
   return (
-    <div className='col-md-6 col-sm-6 text-center' css={styMargin('0 0 16px 0')}>
+    <div className='col-md-10 col-md-offset-1 text-center text-center' css={styMargin('0 0 16px 0')}>
       <h2 className="main-font main-font__wedding">Count Down Acara</h2>
       <CountItem text="Days" number={days}/>
       <CountItem text="Hours" number={hours} />
