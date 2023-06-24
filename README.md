@@ -17,7 +17,7 @@
 5. Floating Music
 
 ## Tech Stack
-1. GatsbyJS(https://www.gatsbyjs.com/docs/creating-a-starter/)
+1. GatsbyJS (https://www.gatsbyjs.com/docs/creating-a-starter/)
 2. Google Firebase (https://firebase.google.com/)
 
 ## 🧐 What's inside?
